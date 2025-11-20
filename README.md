@@ -28,7 +28,9 @@ Create the Image
 sudo podman run --rm -it --pull newer --privileged --net=host \
 -v /home/kmoos/openshift-appliance-builder-proxy/podman-bin.sh:/root/.local/bin/podman \
 -v /home/kmoos/openshift-appliance-builder-proxy/data:/assets:Z \
--v /home/kmoos/openshift-appliance-builder-proxy/registries.conf:/etc/containers/registries.conf:ro quay.apps.moos.red/registry_redhat_proxy/assisted/agent-preinstall-image-builder-rhel9:1.0.1 build --log-level=debug
+-v /home/kmoos/openshift-appliance-builder-proxy/registries.conf:/etc/containers/registries.conf:ro \
+quay.apps.moos.red/registry_redhat_proxy/assisted/agent-preinstall-image-builder-rhel9:1.0.1 \
+build --log-level=debug
 ```
 
 # Sources
