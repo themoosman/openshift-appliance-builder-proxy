@@ -33,6 +33,6 @@ quay.proxy.example.com/registry_redhat_proxy/assisted/agent-preinstall-image-bui
 build --log-level=debug
 ```
 
-# Sources
+# Sources and Thanks
 * [OpenShift Appliance GitHub](https://github.com/openshift/appliance/blob/master/docs/user-guide.md#generate-a-cluster-configuration-image) 
-* [ocp-appliance-gui](https://github.com/kenmoini/ocp-appliance-gui/)
+* [ocp-appliance-gui](https://github.com/kenmoini/ocp-appliance-gui/) - Thanks to Ken for the podman-bin script.
